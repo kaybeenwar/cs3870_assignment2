@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Grinning Face",
+    "category": "Smileys",
+    "unicode": "😀",
+    "description": "A yellow face with simple, open eyes and a broad, open smile."
+  },
+  {
+    "id": 2,
+    "name": "Heart Eyes",
+    "category": "Smileys",
+    "unicode": "😍",
+    "description": "A yellow face with an open smile and hearts for eyes, expressing love or adoration."
+  },
+  {
+    "id": 3,
+    "name": "Thinking Face",
+    "category": "Smileys",
+    "unicode": "🤔",
+    "description": "A yellow face with a single raised eyebrow and hand on chin, in deep thought."
+  },
+  {
+    "id": 4,
+    "name": "Laughing Tears",
+    "category": "Smileys",
+    "unicode": "😂",
+    "description": "A yellow face with a big grin and tears streaming down, laughing so hard it hurts."
+  },
+  {
+    "id": 5,
+    "name": "Sunglasses Face",
+    "category": "Smileys",
+    "unicode": "😎",
+    "description": "A yellow face wearing black sunglasses, conveying coolness or confidence."
+  },
+  {
+    "id": 6,
+    "name": "Red Heart",
+    "category": "Symbols",
+    "unicode": "❤️",
+    "description": "A classic red heart symbol representing love, affection, and emotion."
+  },
+  {
+    "id": 7,
+    "name": "Fire",
+    "category": "Symbols",
+    "unicode": "🔥",
+    "description": "A flame emoji representing fire, heat, or something exciting and trending."
+  },
+  {
+    "id": 8,
+    "name": "Star",
+    "category": "Symbols",
+    "unicode": "⭐",
+    "description": "A classic five-pointed star, often used for ratings or highlighting something special."
+  },
+  {
+    "id": 9,
+    "name": "Thumbs Up",
+    "category": "Gestures",
+    "unicode": "👍",
+    "description": "A thumbs-up gesture indicating approval, agreement, or encouragement."
+  },
+  {
+    "id": 10,
+    "name": "Clapping Hands",
+    "category": "Gestures",
+    "unicode": "👏",
+    "description": "Two hands clapping together, showing applause or appreciation."
+  },
+  {
+    "id": 11,
+    "name": "Waving Hand",
+    "category": "Gestures",
+    "unicode": "👋",
+    "description": "A hand waving, used for greeting or saying goodbye."
+  },
+  {
+    "id": 12,
+    "name": "Rocket",
+    "category": "Objects",
+    "unicode": "🚀",
+    "description": "A rocket ship blasting off, symbolizing speed, progress, or space exploration."
+  },
+  {
+    "id": 13,
+    "name": "Laptop",
+    "category": "Objects",
+    "unicode": "💻",
+    "description": "A laptop computer, representing technology, work, or digital activities."
+  },
+  {
+    "id": 14,
+    "name": "Light Bulb",
+    "category": "Objects",
+    "unicode": "💡",
+    "description": "An illuminated light bulb, symbolizing ideas, inspiration, or innovation."
+  },
+  {
+    "id": 15,
+    "name": "Book",
+    "category": "Objects",
+    "unicode": "📚",
+    "description": "A stack of books representing reading, education, or knowledge."
+  },
+  {
+    "id": 16,
+    "name": "Pizza",
+    "category": "Food",
+    "unicode": "🍕",
+    "description": "A slice of pepperoni pizza, a popular comfort food worldwide."
+  },
+  {
+    "id": 17,
+    "name": "Coffee",
+    "category": "Food",
+    "unicode": "☕",
+    "description": "A steaming cup of coffee, representing energy, breaks, or morning routines."
+  },
+  {
+    "id": 18,
+    "name": "Apple",
+    "category": "Food",
+    "unicode": "🍎",
+    "description": "A red apple, symbolizing health, education, or fresh produce."
+  },
+  {
+    "id": 19,
+    "name": "Sun",
+    "category": "Nature",
+    "unicode": "☀️",
+    "description": "A bright sun with rays, representing sunny weather or happiness."
+  },
+  {
+    "id": 20,
+    "name": "Rainbow",
+    "category": "Nature",
+    "unicode": "🌈",
+    "description": "A colorful rainbow arc, symbolizing hope, diversity, or good weather after rain."
+  },
+  {
+    "id": 21,
+    "name": "Tree",
+    "category": "Nature",
+    "unicode": "🌳",
+    "description": "A deciduous tree with green leaves, representing nature and the environment."
+  },
+  {
+    "id": 22,
+    "name": "Dog Face",
+    "category": "Animals",
+    "unicode": "🐶",
+    "description": "A friendly dog face, representing man's best friend and loyalty."
+  },
+  {
+    "id": 23,
+    "name": "Cat Face",
+    "category": "Animals",
+    "unicode": "🐱",
+    "description": "A cute cat face with whiskers, symbolizing cats and feline companions."
+  },
+  {
+    "id": 24,
+    "name": "Butterfly",
+    "category": "Animals",
+    "unicode": "🦋",
+    "description": "A colorful butterfly, representing transformation and natural beauty."
+  },
+  {
+    "id": 25,
+    "name": "Musical Note",
+    "category": "Activities",
+    "unicode": "🎵",
+    "description": "Musical notes representing music, singing, or entertainment."
+  },
+  {
+    "id": 26,
+    "name": "Video Game",
+    "category": "Activities",
+    "unicode": "🎮",
+    "description": "A video game controller, representing gaming and digital entertainment."
+  },
+  {
+    "id": 27,
+    "name": "Soccer Ball",
+    "category": "Activities",
+    "unicode": "⚽",
+    "description": "A black and white soccer ball, representing the world's most popular sport."
+  },
+  {
+    "id": 28,
+    "name": "Party Popper",
+    "category": "Activities",
+    "unicode": "🎉",
+    "description": "A party popper with confetti, celebrating special occasions and achievements."
+  },
+  {
+    "id": 29,
+    "name": "Check Mark",
+    "category": "Symbols",
+    "unicode": "✅",
+    "description": "A green check mark indicating completion, approval, or verification."
+  },
+  {
+    "id": 30,
+    "name": "Warning Sign",
+    "category": "Symbols",
+    "unicode": "⚠️",
+    "description": "A yellow warning triangle, alerting to caution or potential danger."
+  }
+]

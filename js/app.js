@@ -1,20 +1,8 @@
-/**
- * Emoji Catalog Explorer - Main JavaScript
- * CS3870 Secure Web Development - Fall 2025
- * 
- * This script handles:
- * - Fetching JSON data asynchronously
- * - Rendering emoji cards dynamically
- * - Search, filter, and sort functionalities
- * - Loading animation with setTimeout
- */
 
-// Global variables to store emoji data
 let allEmojis = [];
 let filteredEmojis = [];
 
-// GitHub raw URL for the JSON file (replace with your actual GitHub raw URL)
-// Example: https://raw.githubusercontent.com/yourusername/yourrepo/main/emojis.json
+
 const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/kaybeenwar/cs3870_assignment2/refs/heads/main/emojis.json'; // Using local file for development; replace with GitHub URL
 
 // DOM Elements
@@ -26,24 +14,17 @@ const loadingOverlay = document.getElementById('loading-overlay');
 const resultsCount = document.getElementById('results-count');
 const clearFiltersBtn = document.getElementById('clear-filters');
 
-/**
- * Show loading overlay
- */
+//Show loading overlay
 const showLoading = () => {
     loadingOverlay.style.display = 'flex';
 };
 
-/**
- * Hide loading overlay
- */
+// Hide loading overlay
 const hideLoading = () => {
     loadingOverlay.style.display = 'none';
 };
 
-/**
- * Fetch emoji data from JSON file using async/await
- * Includes error handling for network issues
- */
+
 const fetchEmojiData = async () => {
     try {
         showLoading();
@@ -175,23 +156,13 @@ const filterBySearch = (emojis, searchTerm) => {
     );
 };
 
-/**
- * Filter emojis by category
- * @param {Array} emojis - Array of emoji objects
- * @param {string} category - Category to filter by
- * @returns {Array} Filtered array of emojis
- */
+
 const filterByCategory = (emojis, category) => {
     if (!category) return emojis;
     return emojis.filter(emoji => emoji.category === category);
 };
 
-/**
- * Sort emojis by name
- * @param {Array} emojis - Array of emoji objects
- * @param {string} order - Sort order ('asc' for A→Z, 'desc' for Z→A)
- * @returns {Array} Sorted array of emojis
- */
+
 const sortEmojis = (emojis, order) => {
     // Create a copy to avoid mutating original array
     const sorted = [...emojis];
@@ -205,10 +176,6 @@ const sortEmojis = (emojis, order) => {
     return sorted;
 };
 
-/**
- * Apply all filters and sorting, then render
- * Uses setTimeout to simulate processing delay for user feedback
- */
 const applyFiltersAndSort = () => {
     // Show brief loading state
     emojiContainer.innerHTML = '<div class="col-12 text-center py-4"><div class="spinner-border text-primary" role="status"></div></div>';
@@ -229,9 +196,7 @@ const applyFiltersAndSort = () => {
     }, 300);
 };
 
-/**
- * Clear all filters and reset to initial state
- */
+//Clear all filters and reset to initial state
 const clearAllFilters = () => {
     searchInput.value = '';
     categorySelect.value = '';
@@ -241,9 +206,7 @@ const clearAllFilters = () => {
     renderEmojis(filteredEmojis);
 };
 
-/**
- * Initialize event listeners for search, filter, and sort controls
- */
+//search, filter, and sort controls
 const initializeEventListeners = () => {
     // Search input - using 'input' event for real-time search
     searchInput.addEventListener('input', (event) => {
@@ -275,10 +238,7 @@ const initializeEventListeners = () => {
     });
 };
 
-/**
- * Initialize the application
- * Main entry point - called when DOM is loaded
- */
+
 const initializeApp = async () => {
     console.log('Initializing Emoji Catalog Explorer...');
     

@@ -15,7 +15,7 @@ let filteredEmojis = [];
 
 // GitHub raw URL for the JSON file (replace with your actual GitHub raw URL)
 // Example: https://raw.githubusercontent.com/yourusername/yourrepo/main/emojis.json
-const GITHUB_JSON_URL = 'emojis.json'; // Using local file for development; replace with GitHub URL
+const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/kaybeenwar/cs3870_assignment2/refs/heads/main/emojis.json'; // Using local file for development; replace with GitHub URL
 
 // DOM Elements
 const emojiContainer = document.getElementById('emoji-container');

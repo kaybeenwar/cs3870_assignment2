@@ -1,14 +1,16 @@
 /* Custom styles for Emoji Catalog Explorer */
+/* Theme Colors: Baby Blue (#89CFF0, #A7D8DE) and Light Orange (#FFB347, #FFCC80) */
 
 /* General Body Styling */
 body {
-    background-color: #f8f9fa;
+    background-color: #f0f8ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Navbar Styling */
 .navbar {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #FFB347 0%, #E09530 100%) !important;
 }
 
 .navbar-brand {
@@ -18,7 +20,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #89CFF0 0%, #FFB347 100%);
     color: white;
     padding: 3rem 0;
     margin-bottom: 2rem;
@@ -34,21 +36,22 @@ body {
     background-color: white;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(137, 207, 240, 0.2);
     margin-bottom: 2rem;
+    border: 1px solid #d4eef7;
 }
 
 .filter-section .form-control,
 .filter-section .form-select {
     border-radius: 8px;
-    border: 2px solid #e9ecef;
+    border: 2px solid #d4eef7;
     transition: border-color 0.3s ease;
 }
 
 .filter-section .form-control:focus,
 .filter-section .form-select:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+    border-color: #89CFF0;
+    box-shadow: 0 0 0 0.2rem rgba(137, 207, 240, 0.35);
 }
 
 /* Emoji Cards */
@@ -58,11 +61,13 @@ body {
     border-radius: 15px;
     overflow: hidden;
     height: 100%;
+    border: 1px solid #e8f4f8;
 }
 
 .emoji-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 30px rgba(137, 207, 240, 0.3);
+    border-color: #89CFF0;
 }
 
 .emoji-display {
@@ -70,7 +75,7 @@ body {
     line-height: 1.2;
     text-align: center;
     padding: 1.5rem 0;
-    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+    background: linear-gradient(180deg, #f0f8ff 0%, #ffffff 100%);
 }
 
 .card-body {
@@ -129,8 +134,8 @@ body {
 .loading-spinner {
     width: 80px;
     height: 80px;
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #667eea;
+    border: 8px solid #FFE4C4;
+    border-top: 8px solid #89CFF0;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -143,7 +148,7 @@ body {
 .loading-text {
     margin-top: 1.5rem;
     font-size: 1.2rem;
-    color: #667eea;
+    color: #5BA3C6;
     font-weight: 500;
 }
 
@@ -164,8 +169,9 @@ body {
     background-color: white;
     padding: 1rem 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 10px rgba(137, 207, 240, 0.15);
     margin-bottom: 1.5rem;
+    border-left: 4px solid #FFB347;
 }
 
 .stats-text {
@@ -175,24 +181,24 @@ body {
 
 /* Footer */
 footer {
-    background-color: #343a40;
-    color: #adb5bd;
+    background: linear-gradient(135deg, #5BA3C6 0%, #89CFF0 100%);
+    color: white;
     padding: 1.5rem 0;
     margin-top: 3rem;
 }
 
 footer a {
-    color: #667eea;
+    color: #FFE4C4;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #8b9df5;
+    color: #FFB347;
 }
 
 /* About Page Styles */
 .about-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #89CFF0 0%, #FFB347 100%);
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -202,16 +208,17 @@ footer a:hover {
     background-color: white;
     border-radius: 15px;
     padding: 2rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(137, 207, 240, 0.2);
     margin-bottom: 2rem;
+    border: 1px solid #e8f4f8;
 }
 
 .about-card h3 {
-    color: #667eea;
+    color: #5BA3C6;
     font-weight: 600;
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #e9ecef;
+    border-bottom: 2px solid #FFE4C4;
 }
 
 .info-item {
@@ -269,20 +276,48 @@ footer a:hover {
 
 /* Button styling */
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #89CFF0 0%, #5BA3C6 100%);
     border: none;
     padding: 0.5rem 1.5rem;
     border-radius: 8px;
     font-weight: 500;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 12px rgba(137, 207, 240, 0.5);
+    background: linear-gradient(135deg, #7BC4E8 0%, #4A92B5 100%);
 }
 
 .btn-outline-secondary {
     border-radius: 8px;
     font-weight: 500;
+    border-color: #FFB347;
+    color: #E09530;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #FFB347;
+    border-color: #FFB347;
+    color: white;
+}
+
+/* Links styling */
+a {
+    color: #5BA3C6;
+}
+
+a:hover {
+    color: #FFB347;
+}
+
+/* Check mark icons on about page */
+.text-success {
+    color: #89CFF0 !important;
+}
+
+.text-warning {
+    color: #FFB347 !important;
 }
